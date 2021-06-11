@@ -1,0 +1,129 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.6 ] */
+
+/* [wxMaxima: section start ]
+ычислить неопределенные интегралы
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(exp^(x^2)*x,x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(sin(1/x)*1/(x^2),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(8*x*sin(x^2),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate((x*cos(x^2))/(1+sin(x^2)*sin(x^2)), x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(exp^(x)*cos(x),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(sin(log(x)),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(asin(x),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(log(x^2+1),x);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: section start ]
+Вычислить определенные интегралы
+   [wxMaxima: section end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( log(t+1) , t ,0 ,1 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 3*sqrt(t), t ,1 ,9 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(sqrt(2-x^2),x,1,sqrt(2));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 3*sqrt(x)*(1+sqrt(x)),x,1,9);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( s/(sqrt(4-s^2)),s,0,sqrt(3));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 1/sqrt(2*x), x ,1 ,2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( t*cos(t) , t ,0 ,%pi/2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate((1+t)/sqrt(2*t), t ,1 ,4 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate((sqrt(z)-1)^2, z ,1 ,2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 1/(cos(2*t)^2) , t ,%pi/8 ,%pi/9 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( exp^(x/3) , x ,0 ,3 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( t*sin(t) , t ,0 ,%pi/2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate(1/(sqrt(x)-1) , t ,4 ,8 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( t*cos(2*t^2) , t ,0 ,%pi/2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 1/(4+x^2) , x ,2 ,2*sqrt(3) );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( (cos(3*t))*(cos(3*t)), t ,0 ,%pi/3 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( exp(t)*sqrt(1-exp(t)) , t, 0, 1);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( (exp(x)-1)/(exp(x)+1) , x,1 ,2 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( sin(3*x) , x ,0 ,%pi/3 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( cos(4*t)*cos(2*t) , t ,0 ,%pi/3 );
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+integrate( 1/(1+exp(t)) , t ,0 ,1 );
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

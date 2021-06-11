@@ -1,0 +1,53 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.6 ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d(sin(x), [x, -4*%pi, 4*%pi]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d(sin(x), [x, -4*%pi, 4*%pi],[y,-2,2]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d ([parametric, cos(t),sin(t), [t,-%pi,%pi], [nticks,80]],[x, -4/3, 4/3]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d([[discrete,xy], 2*%pi*sqrt(l/980)], [l,0,50],
+[style, [points,5,2,6], [lines,1,1]],
+[legend, experiment , theory ],
+[xlabel,"pendulums length (cm)"], [ylabel,"period (s)"]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d([x^3+2,['parametric, cos(t), sin(t), [t, -5, 5], [nticks, 80]]], [x,-2,2],
+ [nticks,80], [xlabel, "x"] , [ylabel, "y"] , [style , [linespoints , 3 , 2 ] , [lines , 3 , 1 ]]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d([3*(1-ph+ph^2)],[ph,0,2*%pi],[gnuplot_preamble,"set polar","set zeroaxis","set encoding koi8r"],[xlabel,x],
+[plot_format,gnuplot]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+wxplot2d([6*cos(ph),ph,2*sin(ph)], [ph,-2*%pi,2*%pi],
+ [plot_format, gnuplot],
+ [gnuplot_preamble, "set polar; set zeroaxis;"]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot3d (atan (-x^2 + y^3/4), [x, -4, 4], [y, -4, 4],[grid, 50, 50], [gnuplot_pm3d,true]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot3d (cos (-x^2 + y^3/4), [x, -4, 4], [y, -4, 4],[gnuplot_preamble,"set view map"],
+[gnuplot_pm3d, true], [grid, 150, 150]);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+ plot3d (2^(-u^2 + v^2), [u, -3, 3], [v, -2, 2]);
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$

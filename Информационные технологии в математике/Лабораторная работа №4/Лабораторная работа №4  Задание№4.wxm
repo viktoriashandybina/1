@@ -1,0 +1,76 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 0.8.6 ] */
+
+/* [wxMaxima: input   start ] */
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 17.05.0 ] */
+/* [wxMaxima: title start ]
+???????????? ?? ???‹?‡?????»?µ??????
+[wxMaxima: title end ] */
+
+/* [wxMaxima: input start ] */
+product (x + i*(i+1)/2, i, 1, 4);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+sum (x + i*(i+1)/2, i, 1, 4);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+product(x + i/2, i,3, 7);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+sum(x + i/2, i,3, 7);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+product( i*(i+1)/2, i, 1, 5 );
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+sum( i*(i+1)/2, i, 1, 5 );
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+product( i^3, i, 1, 6 );
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+sum( i^3, i, 1, 6 );
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+f(x) := x^2 + 3; 
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+map( f, [1,2,3,4,5] );
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+f(x) := a*x^2 + b*x + c ;
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+k : 4$ a : k-7; b : a / 3; c : abs(b - 8);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+list1:create_list( x+1, x, 2, 7);
+/* [wxMaxima: input end ] */
+
+/* [wxMaxima: input start ] */
+map(f, list1);
+/* [wxMaxima: input end ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
+??????? ? ????? ???????
+??????? ?????
+???
+???????? ?????????…;
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
